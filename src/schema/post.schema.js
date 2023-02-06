@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const { Schema, Types } = mongoose;
 
 const postSchema = new Schema({
-    userId: Types.ObjectId,
+    userId: Schema.Types.ObjectId,
     title: String,
     description: String,
 });
